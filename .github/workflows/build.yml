@@ -33,3 +33,5 @@ jobs:
         path: build/tallycash.tokenlist.json
     - name: Update minor version
       run: yarn version --minor 
+    - name: Update package.json version
+      run: yarn upgrade-interactive
