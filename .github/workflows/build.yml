@@ -31,4 +31,5 @@ jobs:
         name: tallycash.tokenlist.json
         path: build/tallycash.tokenlist.json
     - name: Update minor version
+      uses: fregante/setup-git-user@v1
       run: yarn version --minor 
