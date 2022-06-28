@@ -35,6 +35,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
-        minor-wording:  'add,Adds,new'
-        patch-wording:  'patch,fixes'    
+        minor-wording:  'add,Add,Adds,new'
         rc-wording:     'RELEASE,alpha' 
