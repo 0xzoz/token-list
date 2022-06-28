@@ -37,4 +37,4 @@ jobs:
       with:
         minor-wording:  'add,Adds,new'
         patch-wording:  'patch,fixes'    
-        rc-wording:     'RELEASE,alpha'
+        rc-wording:     'RELEASE,alpha' 
